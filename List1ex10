@@ -1,0 +1,11 @@
+double vdolar;
+    double cdolar;
+    double reais;
+
+    Console.WriteLine("Digite seu valor");
+    vdolar = double.Parse(Console.ReadLine());
+    Console.WriteLine("Digite sua cotação");
+    cdolar = double.Parse(Console.ReadLine());
+    reais = vdolar*cdolar;
+    Console.WriteLine("Resultado em reais");
+    Console.WriteLine(reais);
